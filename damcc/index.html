@@ -9,9 +9,10 @@
 
   gtag('config', 'G-3T08C642HF');
 
-  await new Promise(resolve => setTimeout(resolve, 500));
-
-  window.location.replace("https://facebook.com/dinastikonten");
+  (()=> {
+    await new Promise(resolve => setTimeout(resolve, 500));
+    window.location.replace("https://facebook.com/dinastikonten");
+  })()
 </script>
 </head>
 </html>

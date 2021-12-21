@@ -9,9 +9,10 @@
 
   gtag('config', 'G-3T08C642HF');
 
-  await new Promise(resolve => setTimeout(resolve, 500));
-
-  window.location.replace("https://discord.gg/WvB8wpJvNH");
+  (()=> {
+    await new Promise(resolve => setTimeout(resolve, 500));
+    window.location.replace("https://discord.gg/WvB8wpJvNH");
+  })()
 </script>
 </head>
 </html>
